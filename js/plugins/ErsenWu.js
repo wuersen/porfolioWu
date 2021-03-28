@@ -1,7 +1,8 @@
 $( document ).ready(function() {
 
 
-const textArray = ['$','{}','{','}','[]','[',']','const','var','i = 0;','i++','arr','str','typeOf','NAN','if ()','+=','for','id','else{}','<div>','src','<img>','<p>','</>', 'let', ';', '||','$','{}','{','}','[ ]','[',']','</>',';',':','$','{}','{','}','[]','[',']', '<', '>', '</>',';', ':','$','[',']', '<', '>', '</>',';', '||','$','{}','{','}','[ ]','[',']','</>',';', ':','$','{}','{','}','[ ]','[',']','id', '<', '>','const','var','i = 0;','i++','arr','str','typeOf','NAN','if ()','+=','for','&&','else{}','<div>','src','<img>','<p>', 'let'];
+const textArray = ['$','{}','{','}','[ ]','[',']','const','var','i = 0;','i++','arr','str','typeOf','NAN','if ()','+=','for','id','else{}','<div>','src','<img>','<p>','</>', 'let', ';', '||','$','{}','{','}','[ ]','[',']','</>',';',':','$','{}','{','}','[ ]','[',']', '?', '#', '</>','@', '%','$','/',']', '*', '>', '</>',';', '||','$','{}','{','}','[ ]','[',']','</>',';', ':','$','{}','{','}','[ ]','[',']','id', '<', '>','const','var','i = 0;','i++','arr','str','typeOf','NAN','if ()','+=','for','&&','else{}','<div>','src','<img>','<p>', 'let'];
+
 const getRandomValueWithin = function(maxValue){
   const randomValue = Math.floor(Math.random() * maxValue)
    return randomValue
@@ -22,7 +23,7 @@ const displayWord = function(){
      fontSize:(20 + getRandomValueWithin(30)) + 'px',
      top: getRandomValueWithin(window.innerHeight) + 'px',
      left: getRandomValueWithin(window.innerWidth) + 'px',
-     color: 'rgb(' + getRandomValueWithin(225) + ','+ getRandomValueWithin(225) + ',' + getRandomValueWithin(225) + ')',
+     color: 'rgb(' + getRandomValueWithin(200) + ','+ getRandomValueWithin(200) + ',' + getRandomValueWithin(200) + ')',
    })
 
 
