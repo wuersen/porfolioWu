@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
 
-const textArray = ['$','{}','{','}','[]','[',']','const','var','i = 0;','i++','arr','str','typeOf','NAN','if()','+=','for','while','else{}','<div>','src','<img>','<p>','</>',';', ':'];
+const textArray = ['$','{}','{','}','[]','[',']','const','var','i = 0;','i++','arr','str','typeOf','NAN','if()','+=','for','while','else{}','<div>','src','<img>','<p>','</>',';', ':','$','{}','{','}','[ ]','[',']','</>',';', ':','$','{}','{','}','[]','[',']', '<', '>', '</>',';', ':','$','[',']', '<', '>', '</>',';', ':','$','{}','{','}','[ ]','[',']','</>',';', ':','$','{}','{','}','[ ]','[',']', '<', '>','const','var','i = 0;','i++','arr','str','typeOf','NAN','if()','+=','for','while','else{}','<div>','src','<img>','<p>'];
 const getRandomValueWithin = function(maxValue){
   const randomValue = Math.floor(Math.random() * maxValue)
    return randomValue
