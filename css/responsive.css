@@ -233,8 +233,8 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
     #skill__icon {
-    
-      flex:0 0 32%
+
+      flex:0 0 30%
     }
     .classy-navbar {
         padding: 0;
